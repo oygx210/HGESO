@@ -1,0 +1,7 @@
+<launch>
+	<node pkg="hgeso" type="HGESO_references" name="HGESO_references" />
+	<node pkg="hgeso" type="HGESO_asmc_att" name="HGESO_asmc_att" />
+	<node pkg="hgeso" type="HGESO_asmc_pos" name="HGESO_asmc_pos" />
+	<node pkg="hgeso" type="HGESO_dynamics" name="HGESO_dynamics" output="screen" />
+	<node pkg="hgeso" type="HGESO_observer" name="HGESO_observer" />
+</launch>
